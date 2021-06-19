@@ -1,0 +1,6 @@
+# CBT568 Install
+/$CA
+$HASP000 OK;devinit 01c ../SOFTWARE/CBT568/FILE568.XMI
+HHC02245I 0:001C device initialized;sh ./submit.sh ../SOFTWARE/CBT568/01_568_receive.jcl
+/ $HASP395 C568XMIT ENDED;sh ./submit.sh ../SOFTWARE/CBT568/02_copy_games.jcl
+# Install complete
